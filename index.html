@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar Razas de Perros y Gatos</title>
+</head>
+<body>
+    <h1>Escribe una raza de Perros o Gatos y te daremos una descripción</h1>
+
+    <!-- Input para buscar razas de perros -->
+    <h3>Buscar raza de perros:</h3>
+    <input type="text" id="Perro" placeholder="Buscar raza de perro">
+    <button id="btnBuscarPerro">Buscar</button>
+
+    <!-- Input para buscar razas de gatos -->
+    <h3>Buscar raza de gatos:</h3>
+    <input type="text" id="Gato" placeholder="Buscar raza de gato">
+    <button id="btnBuscarGato">Buscar</button>
+
+    <!-- Aquí se muestra la descripción del animal -->
+    <h2>Resultado:</h2>
+    <p><strong>Raza:</strong> <span id="Raza"></span></p>
+    <p><strong>Temperamento:</strong> <span id="Temperamento"></span></p>
+    <p><strong>Esperanza de vida:</strong> <span id="Vida"></span></p>
+
+    <h4>Aquí tienes un ejemplo de razas que puedes buscar:</h4>
+    <h5>PERROS</h5>
+    <ul>
+        <li>Labrador Retriever</li>
+        <li>Bulldog</li>
+        <li>Pastor Alemán</li>
+        <li>Poodle (Caniche)</li>
+        <li>Basset Hound</li>
+    </ul>
+
+    <h5>GATOS</h5>
+    <ul>
+        <li>American Bobtail</li>
+        <li>American Curl</li>
+        <li>Arabian Mau</li>
+        <li>California Spangled</li>
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
